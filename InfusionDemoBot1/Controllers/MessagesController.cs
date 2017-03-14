@@ -28,7 +28,7 @@ namespace InfusionDemoBot1
             }
             else
             {
-                var response = Request.CreateResponse(HttpStatusCode.BadRequest);
+                var response = Request.CreateResponse(HttpStatusCode.Accepted);
                 return response;
 
             }
